@@ -4,3 +4,6 @@ D:\git\LOGOS\DZ1\DZ1\bin\Debug\DZ1.pdb
 D:\git\LOGOS\DZ1\DZ1\obj\Debug\DZ1.csprojResolveAssemblyReference.cache
 D:\git\LOGOS\DZ1\DZ1\obj\Debug\DZ1.exe
 D:\git\LOGOS\DZ1\DZ1\obj\Debug\DZ1.pdb
+D:\git\LOGOS\Logos_Homework\DZ\DZ1\DZ1\bin\Debug\DZ1.exe.config
+D:\git\LOGOS\Logos_Homework\DZ\DZ1\DZ1\obj\Debug\DZ1.exe
+D:\git\LOGOS\Logos_Homework\DZ\DZ1\DZ1\obj\Debug\DZ1.pdb

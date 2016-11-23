@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
 namespace DZ1
 {
     class Program
@@ -14,7 +15,7 @@ namespace DZ1
             Console.WriteLine("Please enter number of homework:");
             Console.WriteLine("1)Averange mark for 3 subjects");
             Console.WriteLine("2)Length of circle ");
-            choise=int.Parse(Console.ReadLine());
+            choise = int.Parse(Console.ReadLine());
             switch (choise)
             {
                 case 1:
@@ -35,7 +36,8 @@ namespace DZ1
                     {
                         Console.WriteLine("Please enter radius of circle");
                         int rad = int.Parse(Console.ReadLine());
-                        float dov =(float)(System.Math.Pow(rad, 2) * 3.14);
+                        const double pi = 3.14159;
+                        float dov = (float)(rad * pi * 2);
                         Console.WriteLine("Length of circle is " + dov);
                     }
                     break;
