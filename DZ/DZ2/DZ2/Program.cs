@@ -37,8 +37,7 @@ namespace DZ2
                         int k = int.Parse(Console.ReadLine());
                         int left, right,buttom;
                         buttom = 1 + (k - 1) * 2;
-                        if (buttom % 2 == 0) left = (buttom / 2) + 1;
-                        else left = (buttom / 2);
+                        right=buttom/2;
                         right = left;
                         for (int i = 0; i < k; i++)
                         {
