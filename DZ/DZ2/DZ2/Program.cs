@@ -26,7 +26,7 @@ namespace DZ2
                         double rez = call + (dist * tar);
                         Console.WriteLine("Please enter part of day (day/night)");
                         string day = Console.ReadLine();
-                        day.ToUpper();
+                        day=day.ToUpper();
                         if (day == "NIGHT") rez /= 2;
                         Console.WriteLine("Rezult for your trip is:" + rez);
                     }
