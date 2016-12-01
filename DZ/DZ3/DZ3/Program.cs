@@ -57,7 +57,7 @@ namespace DZ3
                         string word;
                         Console.WriteLine("Please enter word to check it");
                         word=Console.ReadLine();
-                        int end = word.Length,mid;
+                        int end = word.Length -1,mid;
                         mid = (int)(Math.Round((double)(end/2)));
                         bool check=true;
                         for(int i=0;i<mid;i++)
