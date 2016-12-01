@@ -26,8 +26,8 @@ namespace DZ2
                         double rez = call + (dist * tar);
                         Console.WriteLine("Please enter part of day (day/night)");
                         string day = Console.ReadLine();
-                        day=day.ToUpper();
-                        if (day == "NIGHT") rez /= 2;
+                        day = day.ToUpper();
+                        if (day == "NIGHT") { rez = rez / 2; }
                         Console.WriteLine("Rezult for your trip is:" + rez);
                     }
                     break;
@@ -37,9 +37,10 @@ namespace DZ2
                         int k = int.Parse(Console.ReadLine());
                         int left, right,buttom;
                         buttom = 1 + (k - 1) * 2;
-                        right=buttom/2;
+                        if (buttom % 2 == 0) left = (buttom / 2) + 1;
+                        else left = (buttom / 2);
                         right = left;
-                        for (int i = 0; i < k; i++)
+                       for (int i = 0; i < k; i++)
                         {
                             for (int y = 0; y <= right; y++)
                             {
